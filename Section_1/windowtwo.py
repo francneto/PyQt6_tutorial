@@ -5,7 +5,7 @@ app = QApplication(sys.argv)
 
 window = QMainWindow()
 
-window.statusBar().showMessage("Welcome to PyQt6 Course")
+window.statusBar().showMessage("Welcome to PyQt6 Course")## only belongs to MainWindow Application
 window.menuBar().addMenu("File")## only belongs to MainWindow Application
 
 window.show()
